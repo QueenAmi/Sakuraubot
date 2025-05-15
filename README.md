@@ -1,4 +1,4 @@
-# RynUbot
+# Moshi
 
 ## 🚀 Heroku Deployment
 
