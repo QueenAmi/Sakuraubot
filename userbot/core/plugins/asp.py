@@ -8,13 +8,13 @@ from userbot import *
 async def video_asupan(client, message):
     y = await message.reply_text(f"ᴘʀᴏᴄᴇssɪɴɢ...")
     try:
-        await client.join_chat("@AsupannyaRyn")
+        await client.join_chat("")
     except:
         pass
     try:
         asupannya = []
         async for asupan in client.search_messages(
-            "@AsupannyaRyn", filter=MessagesFilter.VIDEO
+            "", filter=MessagesFilter.VIDEO
         ):
             asupannya.append(asupan)
         video = random.choice(asupannya)
