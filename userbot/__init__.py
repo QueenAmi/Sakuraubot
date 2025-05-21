@@ -41,7 +41,7 @@ logging.getLogger("pytgcalls").setLevel(logging.WARNING)
 
 class Bot(Client):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs, device_model="QueenUbot")
+        super().__init__(**kwargs, device_model="SakuraUserBot")
 
     def on_message(self, filters=None, group=-1):
         def decorator(func):
@@ -70,9 +70,9 @@ class Ubot(Client):
     _get_my_peer = {}
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs, device_model="QueenUbot")
+        super().__init__(**kwargs, device_model="SakuraUserBot")
         self.call_py = PyTgCalls(self)  # Inisialisasi call_py di sini
-        self.device_model = "QueenUbot"
+        self.device_model = "SakuraUserBot"
 
     def on_message(self, filters=None, group=-1):
         def decorator(func):
