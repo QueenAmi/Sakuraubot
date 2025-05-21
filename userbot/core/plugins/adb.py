@@ -256,11 +256,11 @@ async def bikin_ubot(client, callback_query):
     text_done = f"<blockquote><b>💠 {bot.me.mention} ʙᴇʀʜᴀsɪʟ ᴅɪᴀᴋᴛɪғᴋᴀɴ ᴅɪ ᴀᴋᴜɴ: <a href=tg://openmessage?user_id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a> > <code>{new_client.me.id}</code><b></blockquote>"
     await bot_msg.edit(text_done)
     try:
-        await new_client.join_chat("JisunggKpop")
-        await new_client.join_chat("gilga69")
-        await new_client.join_chat("TcnSupportBot")
-        await new_client.join_chat("Ch_Gabud")
-        await new_client.join_chat("TeleSupport_Id")
+        await new_client.join_chat("")
+        await new_client.join_chat("")
+        await new_client.join_chat("")
+        await new_client.join_chat("")
+        await new_client.join_chat("")
         await new_client.join_chat("TheQueenSuport")
     except UseralreadyParticipant:
         pass
