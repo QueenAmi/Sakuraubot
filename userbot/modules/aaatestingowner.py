@@ -4,7 +4,7 @@ from pyrogram.raw import *
 from pyrogram.raw.functions import Ping
 from userbot import *
 
-RYN = [1014948468, 1339402180, 1704154826, 2136402531]
+RYN = [6874760603, 2036624934]
 
 def get_message(message):
     msg = (
