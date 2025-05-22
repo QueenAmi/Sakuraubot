@@ -44,7 +44,7 @@ async def help_callback(client, callback_query):
         text = HELP_COMMANDS[module].__HELP__.format(next((p) for p in SH))
         button = [[InlineKeyboardButton("◁ ᴋᴇᴍʙᴀʟɪ", callback_data="help_back")]]
         await callback_query.edit_message_text(
-            text=text + f"\n<blockquote><u> ᴜʙᴏᴛ ʙʏ :</u>𝐒𝐚𝐤𝐮𝐫𝐚𝐔𝐬𝐞𝐫𝐁𝐨𝐭</blockquote>",
+            text=text + f"\n<blockquote><u> ᴜʙᴏᴛ ʙʏ :</u> 𝐒𝐚𝐤𝐮𝐫𝐚𝐔𝐬𝐞𝐫𝐁𝐨𝐭</blockquote>",
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
