@@ -14,7 +14,7 @@ OWNER_ID = int(os.getenv("OWNER_ID", "2036624934"))
 
 USER_ID = list(map(int,os.getenv("USER_ID", "2036624934",).split(),))
 
-LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1002613506319"))
+LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1004693869731"))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002255178108 -1002345737742 -1002264306183").split()))
 
